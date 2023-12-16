@@ -2,9 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, config the enviroment variables file .env with your postgres Database and Client's secret
+## First, config the enviroment variables file .env with your postgres Database and Client's secret
 
-First, run the development server:
+Next, run the development server:
 
 ```bash
 npm run dev
