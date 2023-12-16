@@ -1,0 +1,45 @@
+{
+  "id": "1a609750-f0e7-4a4c-9ba7-d1b48e106daf",
+  "prevId": "cad2db44-9630-4069-a7f7-5061ef01c251",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "packages": {
+      "name": "packages",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "price": {
+          "name": "price",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {
+      "\"packagesTable\"": "\"packages\""
+    },
+    "columns": {}
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "packagesTable" RENAME TO "packages";
